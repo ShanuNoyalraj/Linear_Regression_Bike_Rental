@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Bike sharing Assignment
+> 
 
 
 ## Table of Contents
@@ -11,38 +11,34 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+
+- A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems   allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system..
+  
+- Goal is to build a model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
+
+- Dataset used is Bike Sharing dataset - https://ml-course2-upgrad.s3.amazonaws.com/Linear+Regression+Assignment/Bike+Sharing+Assignment/day.csv
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Conclusion 1 Count of bikes is positiviley correlated with the variables temperature,month (September,October) and Year(2019)
+- Conclusion 2 Count of bikes is decreases for variables like Holidays, Sundays,Spring,Mist cloudy_Broken clouds_Few clouds,Light rain_Light snow_Thunderstorm_Scattered clouds
+- Conclusion 3 The best fit obtained for predicting count of bikes is 
+Count = 0.2356 *Year + 0.3670 *Temp- 0.1457 *spring- 0.0813 *Mist cloudy_Broken clouds_Few clouds + 0.0828 *September- 0.3146 *Light rain_Light snow_Thunderstorm_Scattered clouds + 0.0683 *October- 0.1013 *holiday- 0.0502 *Sunday 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- EDA
+- Linear regression
+- Numpy, Pandas, Matplotlib, Seaborn
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [Shanunoyalraj@githubusername] - feel free to contact me!
 
 
 <!-- Optional -->
