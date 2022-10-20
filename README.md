@@ -21,9 +21,9 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 Count of bikes is positiviley correlated with the variables temperature,month (September,October) and Year(2019)
-- Conclusion 2 Count of bikes is decreases for variables like Holidays, Sundays,Spring,Mist cloudy_Broken clouds_Few clouds,Light rain_Light snow_Thunderstorm_Scattered clouds
-- Conclusion 3 The best fit obtained for predicting count of bikes is 
+- Conclusion 1 : Count of bikes is positiviley correlated with the variables temperature,month (September,October) and Year(2019)
+- Conclusion 2 : Count of bikes is decreases for variables like Holidays, Sundays,Spring,Mist cloudy_Broken clouds_Few clouds,Light rain_Light snow_Thunderstorm_Scattered clouds
+- Conclusion 3 : The best fit line obtained for predicting count of bikes is 
 Count = 0.2356 *Year + 0.3670 *Temp- 0.1457 *spring- 0.0813 *Mist cloudy_Broken clouds_Few clouds + 0.0828 *September- 0.3146 *Light rain_Light snow_Thunderstorm_Scattered clouds + 0.0683 *October- 0.1013 *holiday- 0.0502 *Sunday 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
@@ -38,7 +38,7 @@ Count = 0.2356 *Year + 0.3670 *Temp- 0.1457 *spring- 0.0813 *Mist cloudy_Broken 
 
 
 ## Contact
-Created by [Shanunoyalraj@githubusername] - feel free to contact me!
+Created by [ShanuNoyalraj@githubusername] - feel free to contact me!
 
 
 <!-- Optional -->
